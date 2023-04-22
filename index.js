@@ -3,7 +3,7 @@ import cors from "cors";
 import connectAddsDb from "./src/dbConnections/addsDbCon.js";
 import addsRoute from "./src/routes/advertisements.js";
 
-const port = 4000;
+const port = 4000 || process.env.PORT;
 const app = express();
 
 app.listen(port, () => {
