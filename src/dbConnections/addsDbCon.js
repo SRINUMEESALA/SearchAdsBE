@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-
+// Intentionally ignored usage env file.So that you can run the application without breaks.
 const db =
   "mongodb+srv://SrinuMeesala:RadheKrishn@cluster0.qexijqt.mongodb.net/AddsDB?retryWrites=true&w=majority";
 
